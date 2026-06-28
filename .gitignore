@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+backend/app/data/*.db
+backend/app/data/*.db-journal
+backend/app/data/*.db-wal
+backend/app/data/*.db-shm
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+.env
+.env.*
+!.env.example
